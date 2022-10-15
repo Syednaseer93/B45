@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="city" value="Bengaluru"/>
+<!--   <parameter name="state" value="Karnataka"/> -->
+    <classes>
+      <class name="day34.Demo6"/>
+    </classes>
+  </test> 
+</suite>

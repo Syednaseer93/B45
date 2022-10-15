@@ -1,0 +1,16 @@
+<suite parallel="tests" name="Suite">
+  <test name="TestFF">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="hub" value="http://localhost:4444"/>
+    <classes>
+      <class name="day36.Demo1"/>
+    </classes>
+  </test>
+  <test name="TestGC">
+  <parameter name="browser" value="chrome"/>
+   <parameter name="hub" value="http://localhost:4444"/>
+    <classes>
+      <class name="day36.Demo1"/>
+    </classes>
+  </test>
+</suite>
